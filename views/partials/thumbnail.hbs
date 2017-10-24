@@ -1,0 +1,12 @@
+<div class="card">
+    <img class="card-img-top img img-responsive img-rounded product-thumbnail" src="{{this.imagePath}}" alt="Card image cap">
+    <div class="card-block">
+        <h4 class="card-title">{{this.title}}</h4>
+        <p class="card-text">{{this.description}}</p>
+    </div>
+    <div class="card-footer align-bottom align-text-bottom">
+        <hr>
+        <div class="price">{{this.price}}$</div>
+        <a href="/add-to-cart/{{this._id}}" class="btn btn-success pull-right">Add to cart</a>
+    </div>
+</div>
